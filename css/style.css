@@ -276,3 +276,96 @@ nav ul li {
 .newsletter {
     background-color: #0864B1;
 }
+
+.news-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.news-title {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 450px;
+    margin: auto 120px auto 0;
+}
+
+.news-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0 auto 120px;
+}
+
+.news-input {
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #000000;
+    border: 0;
+    width: 400px;
+    padding: 20px 30px;
+}
+
+.news-button {
+    background-color: #0864B1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    padding: 20px 30px;
+    margin: 30px auto 0 auto;
+}
+
+.contact {
+    background-color: #F5F5F5;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-text {
+    color: #0864B1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-input {
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #000000;
+    border: 0;
+    width: 100%x;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 20px #0000003d;
+}
+
+.form-reset {
+    background-color: #ffffff00;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0864B1;
+    border: 5px solid #ffffff00;
+    padding: 20px 30px;
+    margin: 30px auto 0 auto;
+}
+
+.form-button {
+    background-color: #0864B1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    padding: 20px 30px;
+    margin: 30px auto 0 auto;
+}
