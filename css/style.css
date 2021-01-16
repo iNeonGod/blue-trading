@@ -117,3 +117,146 @@ nav ul li {
     margin: 0px;
     letter-spacing: 0px;
 }
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.statistics-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+.statistics-title {
+    color: #0864B1;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.statistics-desc {
+    color: #676767;
+    font-size: 30px;
+    margin: 0;
+}
+
+.features {
+    background-color: #F5F5F5;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+.feature-image {
+    background-color: #0864B1;
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px #0000003d;
+}
+
+.feature-desc {
+    color: #676767;
+    font-size: 30px;
+    margin: 60px 0 0 0;
+    max-width: 400px;
+    text-align: center;
+}
+
+.lastest {
+    background-color: #ffffff;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article-content {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px #0000003d;
+    margin: 30px;
+}
+
+.article-image {
+    width: 400px;
+    height: 220px;
+}
+
+.article-desc {
+    max-width: 340px;
+    color: #676767;
+    margin: 30px auto;
+    font-size: 16px;
+}
+
+.article-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.articles .article-content a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.articles .article-content a:link {
+    color: #0864B1;
+}
+
+.articles .article-content a:visited {
+    color:#0864B1;
+}
+
+.articles .article-content a:hover {
+    color: #0864B1;
+}
+
+.articles .article-content a:active {
+    color: #0864B1;
+}
+
+.article-arrow {
+    width: 10px;
+    height: 15px;
+    margin: auto 0 auto 30px;
+}
+
+.testimonials {
+    background-color: #F5F5F5;
+}
+
+.test-content {
+    background-color: #ffffff;
+    font-size: ;
+}
+
+.test-text {
+    color: #676767;
+}
+
+.test-autor {
+    color: #0864B1;
+}
+
+.test-role {
+    color: #676767;
+}
