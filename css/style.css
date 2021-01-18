@@ -416,3 +416,79 @@ nav ul li {
     padding: 20px 30px;
     margin: 30px 15px 60px 0;
 }
+
+footer {
+    background-color: #676767;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-local {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo {
+    margin: 0px;
+}
+
+.footer-logo a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 50px;
+}
+.footer-logo a:link {
+    color: #ffffff;
+}
+
+.footer-logo a:visited {
+    color: #ffffff;
+}
+
+.footer-logo a:hover {
+    color: #ffffff;
+}
+
+.footer-logo a:active {
+    color: #ffffff;
+}
+
+.local-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 250px;
+}
+
+.local-info a {
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0px;
+
+}
+.local-info a:link {
+    color: #ffffff;
+}
+
+.local-info a:visited {
+    color: #ffffff;
+}
+
+.local-info a:hover {
+    color: #ffffff;
+}
+
+.local-info a:active {
+    color: #ffffff;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+}
